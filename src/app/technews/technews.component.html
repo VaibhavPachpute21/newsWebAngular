@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="text-center">Tech News</h1>
+        <div class="col-lg-3 mb-3" *ngFor="let t of techNews">
+            <div class="box">
+                <img src="{{t.urlToImage}}" width="100%">
+                <h4 class="">{{t.title}}</h4>
+                <a class="btn btn-dark" href="{{t.url}}" target="_blank">Read more..</a>
+            </div>
+        </div>
+    </div>
+</div>

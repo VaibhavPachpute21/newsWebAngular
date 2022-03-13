@@ -1,0 +1,11 @@
+.box{
+    background-color: rgba(199, 200, 201, 0.808);
+    padding: 10px 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.box img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
